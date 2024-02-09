@@ -99,14 +99,17 @@
       justify-content: center;
       gap: 20px;
     }
-    .dropdown-toggle{
+
+    .dropdown-toggle {
       background-color: var(--dark-slate);
     }
-    .dropdown-toggle:hover{
+
+    .dropdown-toggle:hover {
       background-color: var(--lightest-slate);
       color: var(--Charcoal);
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
       background-color: var(--white);
     }
 
@@ -150,6 +153,26 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/drinks.html">A Few Drinks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-link">
+          <a class="nav-link active" aria-current="page" href="/basic.html">Basic</a>
+        </li>
+        <li class="nav-link">
+          <a class="nav-link" href="/advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
 
   <h1>Have a cup with Srikanth Pamulapati</h1>
   <div class="container">
@@ -268,10 +291,10 @@
     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       Click Here to Navigate
     </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="/basic.html">Basic</a></li>
-        <li><a class="dropdown-item" href="/advanced.html">Advanced</a></li>
-      </ul>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="/basic.html">Basic</a></li>
+      <li><a class="dropdown-item" href="/advanced.html">Advanced</a></li>
+    </ul>
   </div>
 
 </body>
