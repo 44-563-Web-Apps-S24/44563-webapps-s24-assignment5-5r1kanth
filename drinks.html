@@ -37,6 +37,7 @@
     body {
       font-family: var(--ff-merriweather);
       /* width: 100vw; */
+      margin-bottom: 100px;
     }
 
     h1,
@@ -97,6 +98,16 @@
       display: flex;
       justify-content: center;
       gap: 20px;
+    }
+    .dropdown-toggle{
+      background-color: var(--dark-slate);
+    }
+    .dropdown-toggle:hover{
+      background-color: var(--lightest-slate);
+      color: var(--Charcoal);
+    }
+    .dropdown-menu{
+      background-color: var(--white);
     }
 
     :root {
@@ -250,6 +261,19 @@
       </div>
     </div>
   </div>
+
+  <h3>DropDowns</h3>
+
+  <div class="container dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Click Here to Navigate
+    </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="/basic.html">Basic</a></li>
+        <li><a class="dropdown-item" href="/advanced.html">Advanced</a></li>
+      </ul>
+  </div>
+
 </body>
 
 </html>
