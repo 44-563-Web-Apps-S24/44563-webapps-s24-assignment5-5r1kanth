@@ -1,139 +1,166 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Eczar&family=Merriweather+Sans&family=Nunito&family=Orbitron&family=Quattrocento+Sans&family=Roboto+Mono&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Merriweather+Sans&family=Nunito&family=Orbitron&family=Quattrocento+Sans&family=Roboto+Mono&family=Sacramento&display=swap');
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    :root {
-      --ff-merriweather: 'Merriweather Sans', sans-serif;
-      --ff-nunito: 'Nunito', sans-serif;
-      --ff-orbitron: 'Orbitron', sans-serif;
-      --ff-quattrocento: 'Quattrocento Sans', sans-serif;
-      --ff-roboto: 'Roboto Mono', monospace;
-      --ff-eczar: 'Eczar', serif;
-    }
+:root {
+    --ff-merriweather: 'Merriweather Sans', sans-serif;
+    --ff-nunito: 'Nunito', sans-serif;
+    --ff-orbitron: 'Orbitron', sans-serif;
+    --ff-quattrocento: 'Quattrocento Sans', sans-serif;
+    --ff-roboto: 'Roboto Mono', monospace;
+    --ff-eczar: 'Eczar', serif;
+}
 
-    body {
-      font-family: var(--ff-merriweather);
-      /* width: 100vw; */
-      margin-bottom: 100px;
-    }
+body {
+    font-family: var(--ff-merriweather);
+    /* width: 100vw; */
+    margin-bottom: 100px;
+}
 
-    h1,
-    h3 {
-      color: #0EA7A5;
-      text-align: center;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-decoration-color: #F96167;
-      margin: 40px;
-    }
+h1,
+h3 {
+    color: #0EA7A5;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #F96167;
+    margin: 40px;
+}
 
-    .container .row .col-sm-2,
-    .col-md {
-      text-align: center;
-    }
+.container .row .col-sm-2,
+.col-md {
+    text-align: center;
+}
 
-    .container {
-      text-align: center;
-    }
+.container {
+    text-align: center;
+}
 
-    p {
-      margin: 20px 160px;
-    }
+p {
+    margin: 20px 160px;
+}
 
-    .container img {
-      width: 400px;
-      height: 400px;
-      margin: 8px;
-      border-radius: 8px;
-    }
+.container img {
+    width: 400px;
+    height: 400px;
+    margin: 8px;
+    border-radius: 8px;
+}
 
-    .container .table {
-      /* margin: 40px auto; */
-      border: 2px solid #233554;
-      border-radius: 8px;
+.container .table {
+    /* margin: 40px auto; */
+    border: 2px solid #233554;
+    border-radius: 8px;
 
-    }
+}
 
-    .container .heading {
-      color: green;
-    }
+.container .heading {
+    color: green;
+}
 
-    .table-group-divider {
-      color: #233554;
-    }
+.table-group-divider {
+    color: #233554;
+}
 
-    .table thead tr th {
-      background-color: #ccd6f6;
-    }
+.table thead tr th {
+    background-color: #ccd6f6;
+}
 
-    .table tr td:hover {
-      background-color: #358597;
-      color: #e6f1ff;
-    }
+.table tr td:hover {
+    background-color: #358597;
+    color: #e6f1ff;
+}
 
-    .btn-toolbar {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
+.btn-toolbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
-    .dropdown-toggle {
-      background-color: var(--dark-slate);
-    }
+.dropdown-toggle {
+    background-color: var(--dark-slate);
+}
 
-    .dropdown-toggle:hover {
-      background-color: var(--lightest-slate);
-      color: var(--Charcoal);
-    }
+.dropdown-toggle:hover {
+    background-color: var(--lightest-slate);
+    color: var(--Charcoal);
+}
 
-    .dropdown-menu {
-      background-color: var(--white);
-    }
+.dropdown-menu {
+    background-color: var(--white);
+}
 
-    form {
-      width: 500px;
-      margin: 10px auto;
-      padding: 20px;
-      border: 2px solid var(--dark-slate);
-      border-radius: 8px;
-    }
+form {
+    width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid var(--dark-slate);
+    border-radius: 8px;
+}
 
-    :root {
-      --dark-navy: #020c1b;
-      --navy: #0a192f;
-      --light-navy: #112240;
-      --lightest-navy: #233554;
-      --navy-shadow: rgba(2, 12, 27, 0.7);
-      --dark-slate: #495670;
-      --slate: #8892b0;
-      --light-slate: #a8b2d1;
-      --lightest-slate: #ccd6f6;
-      --white: #e6f1ff;
-      --green: #64ffda;
-      --green-tint: rgba(100, 255, 218, 0.1);
-      --pink: #f57dff;
-      --blue: #57cbff;
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
-      --mygreen: #CCF381;
-      --Coral: #F96167;
-      --mustard: #FCE77D;
-      --yellow: #F9D342;
-      --Charcoal: #292826;
-      --pink: #DF678C;
-      --red: #D2302C;
-      --mint: #8BD8BD;
-      --sky-blue: #8AAAE5;
-      --teal: #358597;
-      --purple: #E2D1F9;
-      --Turquoise: #44E3FF;
-      --springteal: #0EA7A5;
-      --flagsaffron: #FF9933;
-      --flagwhite: #ffffff;
-      --flaggreen: #138808;
-      --flagchakra: #000080;
-    }
+.card-container img {
+    width: 100%;
+    margin: 0;
+}
+
+.card {
+    height: 600px;
+    /* width: 100%; */
+}
+
+.card-body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 100%; */
+}
+
+.card-text {
+    width: 100%;
+    transform: translateX(-160px);
+}
+
+:root {
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green: #64ffda;
+    --green-tint: rgba(100, 255, 218, 0.1);
+    --pink: #f57dff;
+    --blue: #57cbff;
+
+    --mygreen: #CCF381;
+    --Coral: #F96167;
+    --mustard: #FCE77D;
+    --yellow: #F9D342;
+    --Charcoal: #292826;
+    --pink: #DF678C;
+    --red: #D2302C;
+    --mint: #8BD8BD;
+    --sky-blue: #8AAAE5;
+    --teal: #358597;
+    --purple: #E2D1F9;
+    --Turquoise: #44E3FF;
+    --springteal: #0EA7A5;
+    --flagsaffron: #FF9933;
+    --flagwhite: #ffffff;
+    --flaggreen: #138808;
+    --flagchakra: #000080;
+}
